@@ -1,0 +1,721 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+#contendorformulario {
+	position: absolute;
+	top: 200px;
+	left: 100px;
+}
+
+#hamburguesa {
+	position: absolute;
+	top: 90px;
+	left: 20px;
+	z-index: 5;
+}
+
+#menucontenedor {
+	position: absolute;
+	background-image: url(../images/background-1.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+#x {
+	position: absolute;
+	top: 20px;
+	left: -100px;
+	z-index: 100;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+#menu {
+	position: absolute;
+	background-color: rgba(0,0,0,.9);
+	width: 400px;
+	height: 100%;
+	left: -400px;
+	z-index: 10;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+#menucontenedor:target #menu {
+	left: 0px;
+}
+
+#menucontenedor:target #x {
+	left: 330px;
+}
+
+#x:target {
+	left: -100px;
+	
+}
+
+.formulario {
+	background-color: #79FFF4;
+	border-radius: 20px;
+	height: 30px;
+}
+
+.suscribite {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	color: white;
+	font-weight: 500;
+}
+
+
+
+
+
+
+
+h4 {
+	position: absolute;
+	top: 130px;
+	left: 50px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 34px;
+	color: #fff;
+	line-height: 70px;
+}
+
+
+
+#rectangulorojo{
+	position: absolute;
+	width: 45%;
+    height: 100%;
+    background-color:#E43043;
+	
+}
+
+#logo {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	height: 60px;
+    width: 201.6px;
+	background-image: url("../img/image-asset.png");
+	background-size: cover;
+}
+
+#lineauno{
+	position: absolute;
+    left: 5%;
+	top: 18%;
+	width: 10px;
+    height: 20%;
+    background-color:#A7D6CB;	
+}
+
+.texto1 {
+    position: absolute;
+    left: 120px;
+    top: 125px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: #A7D6CB;
+}
+
+#boton1 {
+    position: absolute;
+    left: 120px;
+    top: 300px;
+    height: 50px;
+    width: 160px;
+    background-color: #A7D6CB;
+    border-radius: 20px;
+    color: #E43043;
+    cursor: pointer;
+	
+}
+
+#boton1:hover .free {
+    font-size: 30px;
+    text-shadow: 0px 0px 20px #626262;
+	
+}
+
+.free {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+	transition-property: all;
+ 	transition-duration: 0.3s;
+}
+
+#boton2 {
+    position: absolute;
+    left: 350px;
+    top: 300px;
+    height: 46px;
+    width: 160px;
+    border-radius: 20px;
+    border: 4px solid #A7D6CB;
+	color: #A7D6CB;
+	cursor: pointer;
+    
+}
+
+#boton2:hover .premium {
+    font-size: 30px;
+    text-shadow: 0px 0px 20px #626262;
+	
+}
+
+.premium {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+	transition-property: all;
+ 	transition-duration: 0.3s;
+}
+
+.texto2 {
+	position: absolute;
+	top: 380px;
+	left: 80px;
+    font-size: 40px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #A7D6CB;
+	
+}
+#imagenabajoizq{
+	position: absolute;
+    left: 0%;
+	bottom: 0%;
+	width: 45%;
+    height: 30%;
+    background-image: url("../img/3b15eca8d0007940cd4fbca6f147d64c.jpg");
+	background-size: cover;
+	background-position: 0px, -15px;
+	
+}
+
+.tituloabajoizq { 
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: #FBF664;
+	left: 25px;
+	top: 10PX;
+	}
+
+#contenedorflechitagorillaz {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	width: 7%;
+	height: 22%;
+	
+	
+}
+
+#flechitagorillaz {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 45%;
+	height: 30%
+	
+}
+
+
+
+#contenedorflechitagorillaz:hover #lineados{
+	position: absolute;
+    left: -30px;
+	top: -95%;
+	width: 400px;
+    height: 250%;
+	background-color: #FBF664;
+	transition-property: all;
+ 	transition-duration: 0.5s;
+}
+
+#contenedorflechitagorillaz:hover .cuerpotextoabajo { 
+	position: absolute;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	left: 2%;
+	top: 6%;
+	transition-property: all;
+ 	transition-duration: 0.5s;
+	}
+
+#lineados{
+	position: absolute;
+    left: -30px;
+	top: -95%;
+	width: 9px;
+    height: 250%;
+    background-color:#FBF664;
+	transition-property: all;
+ 	transition-duration: 0.5s;
+	
+}
+
+.cuerpotextoabajo { 
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0px;
+	font-weight: bold;
+	color: #FFFFFF;
+	left: 0px;
+	top: 6%;
+	}
+
+
+
+#pngabajoizq{
+    position: absolute;
+    top: 55%;
+    left: 27%;
+    filter: drop-shadow(2px 5px 6px #000000);
+}
+
+#botonabajoizq {
+	position: absolute;
+	background-color: #499570;
+    left: 5%;
+	top: 92%;
+	width: 110px;
+    height: 25px;
+	border-radius: 23px;
+	cursor:pointer;
+	
+}
+
+
+
+#botonabajoizq:hover {
+	position: absolute;
+	background-color: #499570;
+	top: 92%;
+	width: 110px;
+    height: 25px;
+	border-radius: 23px;
+	filter: drop-shadow(1px 1px 7px #000000);
+	transition-property: all;
+ 	transition-duration: 0.3s;
+}
+
+#botonabajoizq:hover .textoboton { 
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FBF664;
+	top: 17%;
+}
+
+
+#rectanguloverde{
+	position: absolute;
+    left: 45%;
+	width: 25%;
+    height: 100%;
+    background-color:#A7D6CB;
+	
+}
+
+#img1 {
+    position: absolute;
+    right: 0%;
+    top: 0px;
+    height: 32%;
+    width: 70%;
+    background-color: black;
+    background-image: url("../img/Captura de pantalla 2020-10-14 212707.png");
+    background-position: center;
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 1s;
+    box-shadow: -10px 10px 55px;
+}
+
+#albumfoto1 {
+	position: absolute;
+	top: -850%;
+	left: -10px;
+	height: 720%;
+    width: 725%;
+	background-image: url("../img/65a95aebc48597705c2cc569cd20736e.1000x1000x1.png");
+	background-size: cover;
+	background-position: center;
+	transition-property: all;
+    transition-duration: 1s;
+	
+}
+
+.albumtexto1 {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#flechita1 {
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	cursor: pointer;
+}
+
+#flechita1:active #albumfoto1 {
+	top: -260%;
+}
+
+#rectanguloamarillo {
+	position: absolute;
+    left: 45%;
+	top: 32%;
+	width: 7.5%;
+    height: 23%;
+    background-color:#FAC97B;	
+}
+
+#rectoculto {
+	position: absolute;
+	background-color:#A7D6CB;
+	height: 100%;
+	width: 233%;
+	left: 100%
+}
+
+.texto3 {
+    position: absolute;
+   	top: 25%;
+	left: 15%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 20px;	
+}
+
+#img2 {
+    position: absolute;
+    background-color: black;
+	right: 0px;
+    height: 35%;
+    width: 70%;
+    top: 55%;
+    background-image: url("../img/Captura de pantalla 2020-10-14 223006.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: -10px 10px 55px;
+}
+
+#albumfoto2 {
+	position: absolute;
+	top: -350%;
+	left: -10px;
+	height: 200%;
+    width: 724%;
+	background-image: url("../img/atrevido.jpeg");
+	background-size: cover;
+	background-position: center;
+	transition-property: all;
+    transition-duration: 1s;
+}
+
+.albumtexto2 {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#flechita2 {
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	cursor: pointer;
+}
+
+#flechita2:active #albumfoto2 {
+	top: -115%;
+	height: 635%;
+	
+}
+
+
+
+#img3 {
+	position: absolute;
+	background-color: black;
+	right: 0px;
+	bottom: 0%;
+	height: 0%;
+	width: 0%;
+	transition-property: all;
+ 	transition-duration: 0.7s;
+}
+
+
+
+#rectanguloamarillodos{
+	position: absolute;
+    left: 45%;
+	top:90%;
+	width: 7.5%;
+    height: 10%;
+	bottom: 0%;
+    background-color:#FAC97B;
+	
+}
+
+
+#rectangulodosrojo{
+	position: absolute;
+	rigth: 0%;
+    left: 70%;
+	width: 30%;
+    height: 100%;
+    background-color:#E43043;
+	
+}
+
+.texto4 {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 32px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-weight: bold;
+    color: #A7D6CB;
+    word-spacing: 3px;
+}
+
+.texto5 {
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    font-size: 25px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    color: black;
+    word-spacing: 3px;
+}
+
+#fotonathy {
+	position: absolute;
+	top: 120px;
+	left: 290px;
+	height: 170px;
+	width: 170px;
+	background-color: black;
+	background-image: url("../img/nathy-peluso-calambre.jpg");
+	background-size: cover;
+}
+
+#linea3 {
+	position: absolute;
+	left: 30px;
+	top: 260px;
+	width: 120px;
+	height: 10px;
+	background-color:#FAC97B;
+	
+}
+
+#fotojohnlegend {
+	position: absolute;
+	top: 300px;
+	width: 190px;
+	height: 190px;
+	background-color: black;
+	border-radius: 100%;
+	left: -40px;
+	background-image: url("../img/johnlegend.jfif");
+	background-size: cover;
+	background-position: center;
+}
+
+.texto6 {
+	position: absolute;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	top: 320px;
+	left: 190px;
+	word-spacing: 5px;
+	font-size: 20px;
+}
+
+.texto7 {
+	position: absolute;
+	left: 55px;
+	top: 430px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #A7D6CB;
+	word-spacing: 5px;
+}
+
+#linea4 {
+	position: absolute;
+	left: 290px;
+	top: 500px;
+	width: 120px;
+	height: 10px;
+	background-color:#FAC97B;
+}
+
+.texto8 {
+	position: absolute;
+	left: 55px;
+	top: 530px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	color: black;
+	word-spacing: 5px;
+}
+
+#linea5 {
+	position: absolute;
+	left: 30px;
+	top: 600px;
+	width: 120px;
+	height: 10px;
+	background-color:#FAC97B;
+	
+}
+
+.texto9 {
+	position: absolute;
+	top: 660px;
+	left: 90px;
+	font-size: 30px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	
+}
+
+#flechita {
+	position: absolute;
+	top: 655px;
+	left: 30px;
+	cursor: pointer;
+}
+
+#flechita:hover {
+	animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+	20%, 50%, 80%, to{
+		transform: translateX(0);
+		}
+	40%{
+		transform: translateX(-30px);
+	}
+	70%{
+		transform: translateX(-15px);
+	}
+	90%{
+		transform: translateX(-4px);
+	}
+}
+
+#contenedor {
+    position: absolute;
+	top: 750px;
+	left: 400px;
+    width: 130px;
+    height: 72px;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+	
+}
+
+#icono1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+	top: 36px;
+	left: 28px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-size: cover;
+    background-image: url("../img/Facebook.png");
+	cursor: pointer;
+}
+#icono1:hover {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+
+
+#icono2 {
+	position: absolute;
+    transform: translate(-50%, -50%);
+	top: 36px;
+	left: 70px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-size: cover;
+	background-image: url("../img/Instagram.png");
+	cursor: pointer;
+
+	
+}
+#icono2:hover {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+}
+
+
+#icono3 {
+	position: absolute;
+    transform: translate(-50%, -50%);
+	top: 36px;
+	left: 110px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-size: cover;
+	background-image: url("../img/Twitter.png");
+	cursor: pointer;
+	
+}
+#icono3:hover {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+}
